@@ -1,0 +1,30 @@
+{
+  "name": "threadjs",
+  "version": "0.0.1",
+  "description": "A multithreading framework for API building backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon ./testing/app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdidd/threadJS.git"
+  },
+  "keywords": [
+    "node",
+    "threading",
+    "Javascript",
+    "webserver"
+  ],
+  "author": "sdidd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdidd/threadJS/issues"
+  },
+  "homepage": "https://github.com/sdidd/threadJS#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
